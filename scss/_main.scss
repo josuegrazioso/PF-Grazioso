@@ -1,0 +1,39 @@
+.center{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.h1-1{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.card{
+    margin: 100px;
+    transition: 0.5s;
+    width: 300px;
+    &:hover{
+        -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+        box-shadow: 5px 5px 15px 5px #000000;
+    }
+}
+.boton{
+    background-color: red;
+    width: 270px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 100px;
+    transition: 0.4s;
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    &:hover{
+        background-color: #000000;
+    }
+}
+.promo{
+    width: 500px;
+    height: 300px;
+    margin-top: 100px;
+}
