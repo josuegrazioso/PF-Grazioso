@@ -1,0 +1,16 @@
+.whatsapp{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1;  
+    img{
+        width: 80px;
+        height: 80px;
+        transition: 1s;
+        &:hover{
+            width: 90px;
+            height: 90px;
+        }
+    } 
+
+}

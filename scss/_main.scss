@@ -6,6 +6,27 @@
     color: rgb(0, 0, 0);
     font-size: 30px;
 }
+.carousel-item{ 
+    position: relative;
+    h2{
+        text-shadow: #000000 2px 2px 2px;
+        position:absolute;
+        font-size: 50px;
+        color: white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        @media(max-width:1144px){
+            font-size: 30px;
+        }
+        @media(max-width:680px){
+            font-size: 20px;
+        }
+        @media(max-width:460px){
+            font-size: 10px;
+        }
+    }
+}
 .card{
     margin: 100px;
     transition: 0.5s;
@@ -13,6 +34,9 @@
     &:hover{
         -webkit-box-shadow: 5px 5px 15px 5px #000000; 
         box-shadow: 5px 5px 15px 5px #000000;
+    }
+    @media(max-width:400px){
+        width: 200px;
     }
 }
 .boton{
@@ -33,7 +57,7 @@
     }
 }
 .promo{
-    width: 500px auto;
+    width: auto;
     height: 300px;
     margin-top: 100px;
 }
@@ -66,4 +90,12 @@
             padding-right: 10px;
         }
     }   
+}
+.ingresos{
+    text-decoration: none;
+    color: black;
+}
+.img-autos{
+    width: 100%;
+    height: auto;
 }

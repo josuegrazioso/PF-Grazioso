@@ -10,7 +10,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
+<body class="body">
     <header>
         <div class="nav-1 d-flex  justify-content-center align-items-center">
           <a class="navbar-brand" href="./index.html">
@@ -48,14 +48,26 @@
             </div>
           </nav>
     </header>
+     <!-- whatsapp icon-->
+    <div class="whatsapp">
+      <a href="https://api.whatsapp.com/send/?phone=987654321&text&type=phone_number&app_absent=0">
+        <img src="../multimedia/img/600px-Whatsapp_logo_svg.png" alt="icono de whatsapp">
+      </a>
+    </div>
     <main class="main">
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="2500">
-            <img src="./multimedia/portada/portada auto 1-min.jpg" class="d-block w-100" alt="portada-1">
+            <a href="./pages/autos.html">
+              <h2>Financía tu próximo auto</h2>
+              <img src="./multimedia/portada/portada auto 1-min.jpg" class="d-block w-100" alt="portada-1">
+            </a>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src="./multimedia/portada/portada 2-min.jpg" class="d-block w-100" alt="portada-2">
+            <a href="./pages/sucursales.html">
+              <h2>Contamos con tres sucursales en Buenos Aires</h2>
+              <img src="./multimedia/portada/portada 2-min.jpg" class="d-block w-100" alt="portada-2">
+            </a>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -82,7 +94,8 @@
           </h2>
           <div class="d-flex justify-content-center align-items-center flex-wrap">
             <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-            <div class="card m-5">
+            <a class="ingresos" href="./pages/autos.html">
+              <div class="card m-5">
               <div id="carouselExample2" class="carousel slide">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -108,12 +121,14 @@
                 <p class="card-text m-0">MERCEDES-BENZ CLASE A 1.6</p>
                 <p class="card-text">2021 | 29.000 km</p>
                 <h5 class="card-title">U$S 98.000</h5>
-                <a href="#" class="btn btn-primary">Comprar</a>
+                <a href="./pages/autos.html" class="btn btn-primary">Comprar</a>
               </div>
             </div>
+            </a>
             </div>
             <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-            <div class="card m-5" style="width: 18rem;">
+            <a class="ingresos" href="./pages/autos.html">
+            <div class="card m-5">
               <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -139,12 +154,14 @@
                 <p class="card-text m-0">Mini Cooper S 2.0</p>
                 <p class="card-text">2015 | 50.000 km</p>
                 <h5 class="card-title">U$S 32.000</h5>
-                <a href="#" class="btn btn-primary">Comprar</a>
+                <a href="./pages/autos.html" class="btn btn-primary">Comprar</a>
               </div>
             </div>
+            </a>
             </div>
             <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-            <div class="card m-5" style="width: 18rem;">
+            <a class="ingresos" href="./pages/autos.html">
+            <div class="card m-5">
               <div id="carouselExample3" class="carousel slide">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -173,6 +190,7 @@
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
+            </a>
             </div>
           </div>
         </div>
@@ -184,8 +202,8 @@
       </div>
       <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
       <aside class="d-flex justify-content-evenly align-items-center flex-wrap">
-        <img class="promo img-fluid" src="./multimedia/promos/PROMOCION 1-min.jpg" alt="promoción">
-        <img class="promo img-fluid" src="./multimedia/promos/PROMO-2-min.jpg" alt="promoción">
+        <a href="#"><img class="promo img-fluid" src="./multimedia/promos/PROMOCION 1-min.jpg" alt="promoción"></a>
+        <a href="#"><img class="promo img-fluid" src="./multimedia/promos/PROMO-2-min.jpg" alt="promoción"></a>
       </aside>
       </div>
     </main>
@@ -205,7 +223,7 @@
           <strong>Contactános</strong>
           <ul>
               <li>+54 9 11 3189-9911</a></li>
-              <li>José A. Cabrera 3626, C1186AAR CABA</li>
+              <li>Av. del Libertador 2340, Palermo CABA, Buenos Aires</li>
           </ul>
       </div>
       <div>
