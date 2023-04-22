@@ -1,0 +1,5 @@
+@mixin promo ($width,$height,$m-top) {
+    width: $width;
+    height: $height;
+    margin-top: $m-top;
+}

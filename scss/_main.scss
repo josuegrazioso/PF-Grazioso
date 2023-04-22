@@ -40,26 +40,13 @@
     }
 }
 .boton{
-    background-color: red;
-    width: 270px;
-    height: 50px;
-    border: none;
-    border-radius: 30px;
-    margin-top: 100px;
-    transition: 0.4s;
-    a{
-        color: white;
-        text-decoration: none;
-        font-size: 20px;
-    }
+    @extend %boton;
     &:hover{
         background-color: #000000;
     }
 }
 .promo{
-    width: auto;
-    height: 300px;
-    margin-top: 100px;
+    @include promo(auto,300px,100px)
 }
 .img-clientes{
     margin-top: 100px;

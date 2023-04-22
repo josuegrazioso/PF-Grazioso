@@ -1,7 +1,7 @@
 {
-  "name": "proyecto-final",
+  "name": "star car pf",
   "version": "1.0.0",
-  "description": "star car",
+  "description": "Somos una Comercializadora especializada en la compra y venta de autos.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
